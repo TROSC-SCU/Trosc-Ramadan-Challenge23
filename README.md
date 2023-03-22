@@ -1,7 +1,7 @@
 # Trosc-Ramadan-Challenge23
 
 <div align="center">
-  <img src="./logo.png" />
+  <img src="./TROSC.png" />
   <h1>Ramadan Challenge</h1>
 </div>
 
