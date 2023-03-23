@@ -11,7 +11,8 @@ The main idea here is to get hands-on experience trying to use GitHub and learn 
 Submit 1 PR (Pull Request) per challenge.
 
 ## Challenges
-- [1-DAY_01.cpp](./Challeges/DAY_01.cpp)
+- [1-DAY_1.cpp](./Challeges/DAY_01.cpp)  First one solved the bug is Esraa Syam ✨✨
+- [2-DAY_2.cpp](./Challeges/DAY_02.cpp)
 - [more to come](../../issues)...
 
 ---
