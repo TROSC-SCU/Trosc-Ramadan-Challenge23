@@ -12,7 +12,8 @@ Submit 1 PR (Pull Request) per challenge.
 
 ## Challenges
 - [1-DAY_1.cpp](./Challeges/DAY_01.cpp)  First one solved the bug is Esraa Syam ✨✨
-- [2-DAY_2.cpp](./Challeges/DAY_02.cpp)
+- [2-DAY_2.cpp](./Challeges/DAY_02.cpp)  First one solved the bug is OmarAl-Sayed ✨✨
+- [3-DAY 3.cpp](./Challeges/DAY_03.cpp)
 - [more to come](../../issues)...
 
 ---
