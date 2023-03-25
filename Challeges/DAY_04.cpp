@@ -6,7 +6,7 @@ int main(){
  
 0<= x <= 1e18
  
-    int x;
+    long long x;
     cin >> x;
     cout << x;
     return 0;
