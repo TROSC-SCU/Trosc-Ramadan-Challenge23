@@ -6,10 +6,11 @@ int main(){
  
 0<= x <= 1e18
  
-    int x;
+   long long x;
     cin >> x;
     cout << x;
     return 0;
 
 }
 // what is the wrong in the code?
+// i made it long long because it make overflow if it integer.
