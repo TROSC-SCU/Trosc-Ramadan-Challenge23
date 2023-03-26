@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
  
 using namespace std;
 
@@ -7,8 +7,8 @@ using namespace std;
 string DecimaltoBinary(int num){
     string Bin;
     while(num){
-    Bin.push_back(num % 2);
-      num /= 2;
+        Bin.push_back(num % 2 + '0');
+        num /= 2;
     }
          
   
