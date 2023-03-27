@@ -15,8 +15,9 @@ bool hasCycle(ListNode *head) {
     ListNode* tmp = head;
     map < ListNode*, bool > visited;
     while(tmp){
-        // write your code here
-        
+        if(visited[tmp]) return true;
+        visited[tmp] = true;
+        tmp = tmp->next;
     }
     return 0;
 }
