@@ -4,15 +4,12 @@ using namespace std;
  
 int main(){
 	
-    long long x;
     
+
+   long long x;
+   0<= x <= 1e18;
     cin >> x;
-    
-    if (0 <= x && x <= 1e18) {
-        cout << x << endl;
-    } else {
-        cout << "Invalid input" << endl;
-    }
+    cout << x;
     return 0;
 }
 
