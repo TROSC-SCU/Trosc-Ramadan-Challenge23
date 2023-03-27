@@ -14,8 +14,9 @@ Submit 1 PR (Pull Request) per challenge.
 - [1-DAY 1 cpp](./Challeges/DAY_01.cpp)  First one solved the bug is Esraa Syam ✨✨
 - [2-DAY 2 cpp](./Challeges/DAY_02.cpp)  First one solved the bug is OmarAl-Sayed ✨✨
 - [3-DAY 3 cpp](./Challeges/DAY_03.cpp)  First one solved the bug is Ayakhaled0197 ✨✨
-- [4-DAY 4 cpp](./Challeges/DAY_04.cpp)   First one solved the bug is NashwaElerian ✨✨
-- [4-DAY 5 cpp](./Challeges/DAY_05.cpp)
+- [4-DAY 4 cpp](./Challeges/DAY_04.cpp)  First one solved the bug is NashwaElerian ✨✨
+- [5-DAY 5 cpp](./Challeges/DAY_05.cpp)  First one solved the bug is RofydaElghadban ✨✨
+- [6-DAY 6 cpp](./Challeges/DAY_06.cpp)
 - [more to come](../../issues)...
 
 ---
