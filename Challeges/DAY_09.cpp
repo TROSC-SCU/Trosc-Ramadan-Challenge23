@@ -9,9 +9,16 @@
         map<int,int>m;
       
 // complete the code :)
-
-      
-        
+        int n=v.size();
+        int freq[n+1]{};
+        for(int i=0;i<n;i++){
+            freq[v[i]]++;
+        }
+        for(int i=0;i<n;i++){
+            if(freq[v[i]]<2){
+                return false;
+            }
+        }return true; 
     }
 
 int main (){
