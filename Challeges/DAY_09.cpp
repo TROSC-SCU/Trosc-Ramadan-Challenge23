@@ -7,28 +7,32 @@
 
     bool containsDuplicate(vector<int>& v) {
         map<int,int>m;
-      
-// complete the code :)
-
-      
-        
+         sort(v.begin(), v.end());
+         for (int i = 0; i < v.size() - 1; i++) {
+              if (v[i] == v[i+1]) {
+                  return true;
+        }
     }
+    return false;
+}
+
+
 
 int main (){
 
   int n;
   cin >>n;
   vector<int> v(n);
-  for ( auto & i:v) cin >> i;
-  
-  if (containsDuplicate(v))
-     cout<<"YES";
-  else 
-    cout<<"NO";
-  
-  
-  
-return 0;
+  for ( auto & i:v){
+   cin >> i;
+  }
+  if (containsDuplicate(v)) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
+    
+    return 0;
 }
 
 
