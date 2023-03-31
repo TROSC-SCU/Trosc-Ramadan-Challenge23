@@ -18,8 +18,14 @@ Every close bracket has a corresponding open bracket of the same type.
 
  bool isValid(string s) {
         stack<char>st;
-
-       // complete the code : ) 
+        for (char x : s) {
+            if (x == '(') st.push(')');
+            else if (x == '{') st.push('}');
+            else if (x == '[') st.push(']');
+            else if (st.empty() || st.top() != x) return false;
+            else st.pop();
+    }
+    return st.empty();
    
    
    
