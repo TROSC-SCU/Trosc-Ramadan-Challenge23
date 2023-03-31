@@ -18,7 +18,7 @@ Submit 1 PR (Pull Request) per challenge.
 - [5-DAY 5 cpp](./Challeges/DAY_05.cpp)     First one solved the bug is RofydaElghadban ✨✨
 - [6-DAY 6 cpp](./Challeges/DAY_06.cpp)     First one solved the bug is O-Abdelaziz ✨✨
 - [7-DAY 7 python](./Challeges/DAY_07.py)   First one solved the bug is O-Abdelaziz ✨✨
-- [8-DAY 8 cpp](./Challeges/DAY_08.cpp)
+- [8-DAY 8 cpp](./Challeges/DAY_08.cpp)     First one solved the bug is RofydaElghadban ✨✨
 - [9-DAY 9 cpp](./Challeges/DAY_09.cpp)     First one solved the bug is O-Abdelaziz ✨✨
 - [10-DAY 10 cpp](./Challeges/DAY_10.cpp)
 - [more to come](../../issues)...
