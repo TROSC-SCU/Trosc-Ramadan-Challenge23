@@ -8,7 +8,10 @@
 
     bool isPowerOfTwo(int n) {
       
-      // please compleate the code :)
+    if (n == 0) return false;
+    if (n == 1) return true;
+    return n % 2 == 0 && isPowerOfTwo(n / 2);
+
       
       
        
@@ -19,7 +22,7 @@
 int main (){
 int x;
   cin >> x;
-  if (isPowerOfTwo(int n)==true) 
+  if (isPowerOfTwo(x)) 
     cout<<"This number is power of 2";
   else 
     cout<<"This number is not power of 2";
