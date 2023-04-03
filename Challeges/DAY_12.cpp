@@ -9,17 +9,19 @@
     bool isPowerOfTwo(int n) {
       
       // please compleate the code :)
-      
-      
-       
+      if((log2(n)/log2(2))-(int)(log2(n)/log2(2))==0){
+          return true;
+      }else{
+          return false; 
+      }
     }
       
     
 
-int main (){
-int x;
-  cin >> x;
-  if (isPowerOfTwo(int n)==true) 
+int main(){
+int n;
+  cin >> n;
+  if (isPowerOfTwo(n)==true) 
     cout<<"This number is power of 2";
   else 
     cout<<"This number is not power of 2";
