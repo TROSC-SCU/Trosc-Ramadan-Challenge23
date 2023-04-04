@@ -18,17 +18,25 @@ struct ListNode {
        ListNode* temp=head->next;
      last->next=NULL;
 
-     // complete the code :) 
-     
-     
+    while (temp != nullptr) {
+        ListNode *next = temp->next;
+        temp->next = last;
+        last = temp;
+        temp = next;
     }
+
+    return last;
+}
       
     
 
 int main (){
-ListNode* list;
+ListNode* list=new ListNode(2, new ListNode(0, new ListNode(2, new ListNode(3))));
   list = reverseList(list);
-  
+  while (list != nullptr) {
+      cout << list->val << ' ';
+      list = list->next;
+    }
   return 0;
   
 }
