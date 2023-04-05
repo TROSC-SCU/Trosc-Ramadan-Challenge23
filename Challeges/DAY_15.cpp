@@ -11,11 +11,12 @@
 int BS(vector<int>& nums, int target)
 {
   // write your code here
-  int l = 0, r = nums[nums.size() - 1];
+
+   int l = 0, r = nums[nums.size() - 1];
    while(l <= r){
-     int m = r - (r - l) / 2;
-     if(nums[m] == target) return m;
-     (nums[m] < target ? l = m + 1 : r = m - 1);
-   }
-   return -1;
+    int m = l + (r - l) / 2;
+    if(nums[m] == target) return m;
+    (nums[m] < target ? l = m + 1 : r = m - 1);
+    }
+    return -1;
 }
