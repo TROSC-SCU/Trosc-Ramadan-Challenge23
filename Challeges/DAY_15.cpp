@@ -8,21 +8,14 @@
 */
 
 
-int BS(vector<int& nums, int target)
+int BS(vector<int>& nums, int target)
 {
-  // write your code here
-    sort(nums.begin(),nums.end());
-    int left=0,right=nums.size()-1,ans=-1;
-    while(left<=right){
-        int mid=left+((right-left)/2);
-        if (nums[mid] == target) {
-            ans=mid;
-            right=mid-1;
-        }else if(nums[mid]<target){
-            left=mid+1;
-        }else{
-            right=mid-1;
-        }
+   // write your code here
+    int l = 0, r = nums[nums.size() - 1];
+    while(l <= r){
+    int m = l + (r - l) / 2;
+    if(nums[m] == target) return m;
+    (nums[m] < target ? l = m + 1 : r = m - 1);
     }
-    return ans;
+    return -1; 
 }
