@@ -8,7 +8,7 @@
 */
 
 
-int BS(vector<int& nums, int target)
+int BS(vector<int>& nums, int target)
 {
   // write your code here
    int l = 0, r = nums[nums.size() - 1];
