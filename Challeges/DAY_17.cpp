@@ -12,6 +12,14 @@
 
 
 // Given the root of a binary tree, return the inorder traversal of its nodes' values.
+vector<int>tree;
 vector<int> inorderTraversal(TreeNode* root) {
       // write your algorithm here
+      if(root!=NULL){
+            inorderTraversal(root->left);
+            tree.push_back(root->val);
+            inorderTraversal(root->right);
+      }else{
+            return {};
+      }return tree;
 }
