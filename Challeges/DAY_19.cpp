@@ -9,16 +9,20 @@
 // ex: 120 -> 21 
 
 
-    int reverse(int x) {
-        // complete the function 
-      
+int reverse(int x) {
+    // complete the function 
+    int ans = 0;
+    while(x){
+        ans *= 10;
+        ans += x % 10, x /= 10;
     }
+    return ans;  
+}
 
 int main(){
-int n;
-  cin >>n;
-  int res=reverse(n);
-  cout<<res;
-  
+  int n;
+  cin >> n;
+  int res = reverse(n);
+  cout << res;
   return 0;
 }
