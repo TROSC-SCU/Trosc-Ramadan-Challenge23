@@ -7,7 +7,11 @@ using namespace std;
  
 bool is_Triangle(int A, int B, int C) {
     // complete the function 
-    
+    if((A+B<=C)||(B+C<=A)||(A+C<=B)){
+        return false;
+    }else{
+        return true;
+    }
 }
 
 int main(){
