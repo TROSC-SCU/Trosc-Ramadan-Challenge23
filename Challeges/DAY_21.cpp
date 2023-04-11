@@ -13,12 +13,14 @@ using namespace std;
 /*
 
 vector < int > prime_factorization(ll n){
-    // complete the function
+    // Complete The Function
 }
+
+// After Complete The Function Print Prime Factors 👇
 
 int main (){
     ll n;
     cin >> n;
-    // Print Prime Factors
+    
     return 0;
 }
