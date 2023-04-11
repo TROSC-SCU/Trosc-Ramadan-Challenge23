@@ -9,18 +9,20 @@ using namespace std;
 /*
   Ex: 
   if the input number is 12, then the output should be “2 2 3”
+  if the input number is 13, then the output should be “13”
 /*
 
-vector < int > prime_factors;
+vector < int > factors;
 
 vector < int > prime_factorization(ll n){
-    
+    // complete the function
 }
 
 int main (){
     ll n;
     cin >> n;
-    for(int i = 0; i < n; i++)
-      cout << Prime_factors[i] << ' ';
+    vector < int > prime_factors = prime_factorization(n);
+    for(int i = 0; i < prime_factors.size(); i++)
+        cout << prime_factors[i] << ' ';
     return 0;
 }
