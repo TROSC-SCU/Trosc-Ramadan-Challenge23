@@ -16,8 +16,6 @@ vector < int > prime_factorization(ll n){
     // Complete The Function
 }
 
-// After Complete The Function Print Prime Factors 👇
-
 int main (){
     ll n;
     cin >> n;
