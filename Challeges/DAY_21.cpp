@@ -12,8 +12,6 @@ using namespace std;
   if the input number is 13, then the output should be “13”
 /*
 
-vector < int > factors;
-
 vector < int > prime_factorization(ll n){
     // complete the function
 }
