@@ -6,7 +6,8 @@ using namespace std;
 // Determine whether this triangle is valid or not
  
 bool is_Triangle(int A, int B, int C) {
-    // complete the function 
+    return (A + B > C && A + C > B && B + C > A);
+
     
 }
 
