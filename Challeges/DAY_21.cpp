@@ -19,8 +19,6 @@ vector < int > prime_factorization(ll n){
 int main (){
     ll n;
     cin >> n;
-    vector < int > prime_factors = prime_factorization(n);
-    for(int i = 0; i < prime_factors.size(); i++)
-        cout << prime_factors[i] << ' ';
+    
     return 0;
 }
