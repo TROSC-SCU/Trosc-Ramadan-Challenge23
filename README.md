@@ -32,6 +32,7 @@ Submit 1 PR (Pull Request) per challenge.
 - [19-DAY 19 cpp](./Challeges/DAY_19.cpp)   First one solved the bug is RofydaElghadban ✨✨
 - [20-DAY 20 cpp](./Challeges/DAY_20.cpp) First one solved the bug is O-Abdelaziz ✨✨
 - [21-DAY 21 cpp](./Challeges/DAY_21.cpp)
+- [22-DAY 22 cpp](./Challeges/DAY_22.cpp)
 - [more to come](../../issues)...
 
 ---
