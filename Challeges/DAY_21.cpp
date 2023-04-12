@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
- #define ll        long long 
-
+#define ll long long 
 using namespace std;
 
 // Given a number N Print the prime factors of N
@@ -15,11 +14,25 @@ using namespace std;
 
 vector < int > prime_factorization(ll n){
     // Complete The Function
+    vector<int>ans;
+    while(n%2==0){
+      ans.push_back(2);
+      n/=2;
+   }
+   for(int i=3;i<=sqrt(n);i+=2){
+      while(n%i==0){
+       ans.push_back(i);
+       n/=i;
+      }
+   }
+   if(n>2){
+    ans.push_back(n);
+   }return ans;
 }
 
 int main (){
-    ll n;
-    cin >> n;
+  ll n;
+  cin >> n;
   vector<int> v=prime_factorization(n);  
   for (auto i:v){
   cout<<i<<' ';
