@@ -33,6 +33,7 @@ Submit 1 PR (Pull Request) per challenge.
 - [20-DAY 20 cpp](./Challeges/DAY_20.cpp)
 - [21-DAY 21 cpp](./Challeges/DAY_21.cpp)
 - [22-DAY 22 cpp](./Challeges/DAY_22.cpp)
+- [23-DAY 23 cpp](./Challeges/DAY_23.cpp)
 - [more to come](../../issues)...
 
 ---
