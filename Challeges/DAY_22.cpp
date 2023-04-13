@@ -14,7 +14,16 @@ using namespace std;
 set < int > ans;
 
 int Count(int n){
-    // Complete The Function 
+    // Calculate perfect square numbers
+    for (int i = 1; i * i <= n; ++i) {
+        ans.insert(i * i);
+    }
+    // Calculate perfect cube numbers
+    for (int i = 1; i * i * i <= n; ++i) {
+        ans.insert(i * i * i);
+    }
+
+    return ans.size();
 }
 
 int main (){
