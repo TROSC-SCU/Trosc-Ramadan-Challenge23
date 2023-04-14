@@ -15,14 +15,26 @@ note : not allowed to convert the integer to string :(
 
     bool isPalindromeNumper(int x) {
       // please complete the function  
-      
-      
+      if(x<0){
+        return false;
+      }int n,dig,rev=0;
+      n=x;
+      while(x!=0){
+        dig=x%10;
+        rev=(rev*10)+dig;
+        x/=10;
+      }if(n==rev){
+        return true;
+        
+      }else{
+        return false;
+      }
     }
 
 
 
 int main(){
-int n;
+  int n;
   cin >> n;
   if (isPalindromeNumper(n)) 
     cout<<"Palindrome Number";
