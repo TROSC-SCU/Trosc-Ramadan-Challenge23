@@ -7,13 +7,21 @@ using namespace std;
 
  void rotate(vector<int>& nums, int k) {
   // please complete the function :)
-   
-   
+        vector<int>v;
+        if(k>nums.size()){
+           k%=nums.size();
+        }for(int i=0;i<nums.size();i++){
+           v.push_back(nums[i]);
+        }for(int i=0;i<k;i++){
+           nums[i]=v[nums.size()-k+i];
+        }for(int i=0;i<nums.size()-k;i++){ 
+            nums[k+i]=v[i];
+        }return;
     }
 
 
 int main (){
-int n,k;
+  int n,k;
   cin >>n>>k;
   vector <int>  nums(n);
   for ( auto &i: nums)   cin >>i;
