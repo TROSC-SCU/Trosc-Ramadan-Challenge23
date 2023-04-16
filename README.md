@@ -30,13 +30,12 @@ Submit 1 PR (Pull Request) per challenge.
 - [17-DAY 17 cpp](./Challeges/DAY_17.cpp)   First one solved the bug is RofydaElghadban ✨✨
 - [18-DAY 18 cpp](./Challeges/DAY_18.cpp)   First one solved the bug is AbdElaaal ✨✨
 - [19-DAY 19 cpp](./Challeges/DAY_19.cpp)   First one solved the bug is RofydaElghadban ✨✨
-- [20-DAY 20 cpp](./Challeges/DAY_20.cpp) First one solved the bug is O-Abdelaziz ✨✨
-- [21-DAY 21 cpp](./Challeges/DAY_21.cpp) 
-First one solved the bug is RofydaElghadban ✨✨
-- [22-DAY 22 cpp](./Challeges/DAY_22.cpp)
-First one solved the bug is Mazen-Ghanaym ✨✨
-- [23-DAY 23 cpp](./Challeges/DAY_23.cpp) First one solved the bug is RofydaElghadban ✨✨
-- [24-DAY 24 cpp](./Challeges/DAY_24.cpp)
+- [20-DAY 20 cpp](./Challeges/DAY_20.cpp)   First one solved the bug is O-Abdelaziz ✨✨
+- [21-DAY 21 cpp](./Challeges/DAY_21.cpp)   First one solved the bug is RofydaElghadban ✨✨
+- [22-DAY 22 cpp](./Challeges/DAY_22.cpp)   First one solved the bug is Mazen-Ghanaym ✨✨
+- [23-DAY 23 cpp](./Challeges/DAY_23.cpp)   First one solved the bug is RofydaElghadban ✨✨
+- [24-DAY 24 cpp](./Challeges/DAY_24.cpp)   First one solved the bug is Mazen-Ghanaym ✨✨
+- [24-DAY 25 cpp](./Challeges/DAY_25.cpp)
 - [more to come](../../issues)...
 
 ---
