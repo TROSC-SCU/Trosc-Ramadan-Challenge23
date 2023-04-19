@@ -15,6 +15,17 @@ using namespace std;
 
 bool is_good(int n, int k){
   // complete the function
+  string s=to_string(n);
+  sort(s.begin(),s.end());
+  int sz=s.size();
+  int freq[10]={0};
+  for(int i=0;i<sz;i++){
+      freq[s[i]-'0']++;
+  }
+  for(int i=0;i<=k;i++){
+      if(freq[i]==0)  
+        return false;
+  }return true;
 }
 
 int main (){
