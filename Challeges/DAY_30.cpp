@@ -7,20 +7,16 @@ using namespace std;
 
 
 void HAPPY_EID(int n){
-  
   // complete the function to white "HAPPY EID " n times :)
-  
-  
-  
-
+  while(n--){
+      cout<<"HAPPY EID"<<"\n";
+  }
 }
 
 int main (){
-int n;
+  int n;
   cin >>n;
-  
-HAPPY_EID(n);
-  return 0;
-
+  HAPPY_EID(n);
+return 0;
 }
 
